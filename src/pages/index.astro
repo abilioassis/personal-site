@@ -31,14 +31,14 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         href="/rss.xml"
         class="inline-block"
         aria-label="rss feed"
-        title="RSS Feed"
+        title="Assinar Feed RSS"
       >
         <IconRss
           width={20}
           height={20}
           class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
         />
-        <span class="sr-only">RSS Feed</span>
+        <span class="sr-only">Assinar Feed RSS</span>
       </a>
 
       <p>
@@ -46,7 +46,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         Sou apaixonado por arquitetura de software e uso este espaço para documentar minhas explorações em
         Web3, Engenharia de Software e o futuro das interfaces digitais.
       </p>
-      <p class="mt-2">Leia os posts do blog para maiores informações.</p>
+      <p class="mt-2">Todos os artigos que publiquei.</p>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
