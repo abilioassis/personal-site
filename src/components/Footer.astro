@@ -24,7 +24,7 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
   >
     <Socials />
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row text-sm sm:text-base">
-      <span>Ribeirão Preto — {currentYear}</span>
+      <span>{currentYear}</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
       
       <div class="flex gap-1">
@@ -37,7 +37,7 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
         >
           Astro
         </a>
-        <span>e hospedado na</span>
+        <span>e </span>
         <a
           href="https://vercel.com/"
           target="_blank"
