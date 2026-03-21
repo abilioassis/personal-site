@@ -14,6 +14,8 @@ tags:
 description: "Uma exploração técnica sobre como utilizei o ecossistema Google AI, a robustez do WSL e a inteligência do Antigravity para transformar especificações em quatro projetos reais."
 ---
 
+![Ilustração sobre Programação Agêntica com Google Antigravity](/public/assets/devlog-ai-gcp.png)
+
 ### **Introdução: O Despertar para os Agentes**
 
 Vivemos um momento de transição profunda na engenharia de software. Durante décadas, nossa maestria como desenvolvedores foi medida pela capacidade de traduzir lógica de negócios em linhas de código sintaticamente perfeitas, de forma manual e incremental. Hoje, essa métrica está sendo rapidamente substituída por uma nova competência: a capacidade de **orquestrar agentes inteligentes**.
