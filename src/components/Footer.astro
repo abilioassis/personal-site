@@ -24,9 +24,19 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
   >
     <Socials />
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
-      <span>Copyright &#169; {currentYear}</span>
+      <span>Ribeirão Preto — {currentYear}</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+      <span class="hover:text-skin-accent">
+        Desenvolvido em
+        <a
+          href="https://astro.build/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-skin-accent underline decoration-dashed underline-offset-4"
+        >
+          Astro
+        </a>
+      </span>
     </div>
   </div>
 </footer>
