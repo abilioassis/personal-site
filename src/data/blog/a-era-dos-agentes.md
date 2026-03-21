@@ -8,6 +8,7 @@ draft: false
 tags:
   - IA
   - Programação Agêntica
+  - Google AI Studio
   - Google Antigravity
   - Engenharia de Software
 description: "Uma exploração técnica sobre como utilizei o ecossistema Google AI, a robustez do WSL e a inteligência do Antigravity para transformar especificações em quatro projetos reais."

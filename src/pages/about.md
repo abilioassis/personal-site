@@ -1,37 +1,22 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Sobre"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Olá, eu sou o **Abilio de Assis**.
 
-![Astro Paper](public/astropaper-og.jpg)
+Com quase três décadas de jornada no mundo da tecnologia, hoje atuo como **Líder Técnico na Petrobras**, onde foco na construção de soluções robustas e escaláveis para desafios complexos da indústria de energia.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+### Minha Filosofia: O Digital Garden
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Este site não é apenas um portfólio estático; é o meu **Digital Garden**. É um espaço de experimentação onde documento minhas explorações em:
 
-## Features
+- **Engenharia de Software Agêntica:** A transição do código manual para a orquestração de IAs.
+- **Arquiteturas Modernas:** Explorações com Astro, Next.js e ecossistemas Cloud.
+- **Web Semântica:** O resgate dos fundamentos do HTML e CSS através de experimentos inspirados no clássico _CSS Zen Garden_.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+### Além do Código
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Acredito que a tecnologia deve ser um meio para a evolução, não um fim em si mesma. Busco o equilíbrio entre a precisão da engenharia e a busca constante pela **"Paz do Eu"** — um mantra que guia minha vida pessoal e profissional em Ribeirão Preto, SP.
 
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+"A clareza de pensamento é a linguagem de programação mais poderosa que um engenheiro pode possuir."
