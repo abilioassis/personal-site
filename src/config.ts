@@ -3,7 +3,7 @@ export const SITE = {
   author: "Abilio de Assis",
   profile: "https://abilioassis.com.br",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Abilio de Assis",
+  title: "ABILIO",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
