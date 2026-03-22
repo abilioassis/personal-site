@@ -1,6 +1,6 @@
 ---
-import { getCollection } from "astro:content";
-import type { GetStaticPathsOptions } from "astro";
+import { type CollectionEntry, getCollection } from "astro:content";
+import type { GetStaticPaths, Page } from "astro";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
@@ -11,7 +11,7 @@ import getUniqueTags from "@/utils/getUniqueTags";
 import getPostsByTag from "@/utils/getPostsByTag";
 import { SITE } from "@/config";
 
-export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+export const getStaticPaths = (async ({ paginate }) => {
   const posts = await getCollection("blog");
   const tags = getUniqueTags(posts);
 
@@ -24,10 +24,14 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
       pageSize: SITE.postPerPage,
     });
   });
+}) satisfies GetStaticPaths;
+
+export interface Props {
+  page: Page<CollectionEntry<"blog">>;
+  tagName: string;
 }
 
-const params = Astro.params;
-const { tag } = params;
+const { tag } = Astro.params as { tag: string };
 const { page, tagName } = Astro.props;
 ---
 
@@ -36,7 +40,7 @@ const { page, tagName } = Astro.props;
   <Main
     pageTitle={[`Tag:`, `${tagName}`]}
     titleTransition={tag}
-    pageDesc={`All the articles with the tag "${tagName}".`}
+    pageDesc={`Todos os artigos com a tag "${tagName}".`}
   >
     <h1 slot="title" transition:name={tag}>{`Tag:${tag}`}</h1>
     <ul>
