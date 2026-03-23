@@ -14,8 +14,6 @@ tags:
 description: "Uma exploração técnica sobre como utilizei o ecossistema Google AI, a robustez do WSL e a inteligência do Antigravity para transformar especificações em quatro projetos reais."
 ---
 
-![Ilustração sobre Programação Agêntica com Google Antigravity](/assets/devlog-ai-gcp.webp)
-
 ### **Introdução: O Despertar para os Agentes**
 
 Vivemos um momento de transição profunda na engenharia de software. Durante décadas, nossa maestria como desenvolvedores foi medida pela capacidade de traduzir lógica de negócios em linhas de código sintaticamente perfeitas, de forma manual e incremental. Hoje, essa métrica está sendo rapidamente substituída por uma nova competência: a capacidade de **orquestrar agentes inteligentes**.
@@ -93,6 +91,8 @@ Nesta fase, o Google Antigravity provou ser o **"Construtor Incansável"**. Ele 
 Com o código-fonte validado e os projetos rodando no laboratório, chegamos à etapa final: a vitrine dos resultados.
 
 ### **Fase 4: [Galeria de Projetos](https://devlog-ai-gcp.vercel.app/) — O "AI Engineering Lab" em Ação**
+
+![Ilustração sobre Programação Agêntica com Google Antigravity](/assets/devlog-ai-gcp.webp)
 
 O verdadeiro teste de qualquer metodologia é a sua entrega. Através da simbiose entre o **Google AI Studio** (estratégia) e o **Google Antigravity** (execução), materializei o **AI Engineering Lab v1.0.0**. Esta vitrine é composta por quatro sistemas que utilizam **Next.js, TypeScript e Shadcn/UI**, demonstrando como a programação agêntica pode acelerar a construção de arquiteturas complexas e escaláveis.
 
