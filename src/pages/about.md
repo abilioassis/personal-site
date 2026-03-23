@@ -13,7 +13,7 @@ Este site não é apenas um portfólio estático; é o meu **Digital Garden**. �
 
 - **Engenharia de Software Agêntica:** A transição do código manual para a orquestração de IAs.
 - **Arquiteturas Modernas:** Explorações com Astro, Next.js e ecossistemas Cloud.
-- **Web Semântica:** O resgate dos fundamentos do HTML e CSS através de experimentos inspirados no clássico _CSS Zen Garden_.
+- **Web3:** A internet descentralizada onde você controla seus dados e ativos. Ela elimina intermediários corporativos, garantindo privacidade, transparência e liberdade financeira para construir uma sociedade digital mais justa.
 
 ### Além do Código
 
